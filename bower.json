@@ -1,0 +1,29 @@
+{
+	"author": ["Rodrigo Carneiro"],
+	"name": "angular-decimal-mask",
+	"description": "A directive to put a decimal mask on input.",
+	"version": "1.0.0",
+	"homepage": "https://github.com/carneironline/angular-decimal-mask",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/carneironline/angular-decimal-mask"
+	},
+	"license": "MIT",
+	"main": ["./angular-decimal-mask.min.js"],
+	"ignore": [
+		".jshintrc",
+	  	".gitignore",
+	  	"README.md",
+	  	"CHANGELOG.md",
+		"package.json",
+		"gruntfile.js",
+		"karma.conf.js",
+	  	"doc",
+	  	"src",
+	  	"test",
+	  	"demo"
+	],
+	"dependencies": {
+		"angular": "~1.5.0"
+	}
+}

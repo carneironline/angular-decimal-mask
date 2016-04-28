@@ -1,16 +1,14 @@
-angular.module('AngularDecimalMask', [])
+angular.module('angularDecimalMask', [])
 .directive('decimalMask', function () {
     return {
         restrict: 'A',
         require: 'ngModel',
         link: function (scope, element, attrs, ngModel) {
-
             element.on('keyup', function(e){
                 var arr = ngModel.$viewValue.replace('.', '').split(""),
                     newArr = [],
-                    newValue = '';
-                var charErros = 0;
-
+                    newValue = '',
+                    charErros = 0;
 
                 angular.forEach(arr, function(char){
                     if(isNaN(char) === false) {
