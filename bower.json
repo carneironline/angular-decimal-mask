@@ -9,7 +9,7 @@
 		"url": "https://github.com/carneironline/angular-decimal-mask"
 	},
 	"license": "MIT",
-	"main": ["./angular-decimal-mask.min.js"],
+	"main": ["./angular-decimal-mask.js"],
 	"ignore": [
 		".jshintrc",
 	  	".gitignore",
